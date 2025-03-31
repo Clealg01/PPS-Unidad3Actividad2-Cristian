@@ -33,6 +33,7 @@
     - [7. Localizar servicios y rutas web](#7-localizar-servicios-y-rutas-web)
     - [8. Búsqueda con searchsploit](#8-búsqueda-con-searchsploit)
 
+---
 
 ## Actividad 1 - Recolección de Información y Análisis de Vulnerabilidades
 
@@ -240,6 +241,8 @@ searchsploit -u
 </p>
 <p align="center"><em>Ejemplos de búsquedas de exploits de Exploit-DB con searchsploit</em></p>
 
+---
+
 ## Actividad 2 - Herramienta de Shodan
 
 **Shodan** es un motor de búsqueda para dispositivos conectados a Internet. A diferencia de Google, que indexa sitios web, Shodan indexa **servicios** y **dispositivos**: cámaras IP, routers, servidores, sistemas SCADA, IoT, etc.
@@ -268,6 +271,8 @@ La información principal que nos aporta en este caso es:
     - ``443`` → Puerto estándar para HTTPS (sitios web cifrados con SSL/TLS).
 
 Para obtener más información podríamos dar a `View IP details` o `View Domain Details` y nos redirigirá a la información de la ip en la página de [Shodan](https://www.shodan.io/), en la que debemos estar registrados con correo electrónico para obtener la información.
+
+---
 
 ## Actividad 3 - Práctica con el laboratorio
 
